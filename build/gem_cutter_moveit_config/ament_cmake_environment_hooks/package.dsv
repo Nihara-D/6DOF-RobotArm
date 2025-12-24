@@ -1,0 +1,4 @@
+source;share/gem_cutter_moveit_config/local_setup.bash
+source;share/gem_cutter_moveit_config/local_setup.dsv
+source;share/gem_cutter_moveit_config/local_setup.sh
+source;share/gem_cutter_moveit_config/local_setup.zsh
