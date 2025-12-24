@@ -1,0 +1,81 @@
+[0.007s] Invoking command in '/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/build/gem_cutter_gazebo': AMENT_PREFIX_PATH=/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/src/gem_cutter_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_gazebo
+[0.052s] -- The C compiler identification is GNU 13.3.0
+[0.098s] -- The CXX compiler identification is GNU 13.3.0
+[0.113s] -- Detecting C compiler ABI info
+[0.173s] -- Detecting C compiler ABI info - done
+[0.181s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.181s] -- Detecting C compile features
+[0.181s] -- Detecting C compile features - done
+[0.190s] -- Detecting CXX compiler ABI info
+[0.259s] -- Detecting CXX compiler ABI info - done
+[0.275s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.276s] -- Detecting CXX compile features
+[0.277s] -- Detecting CXX compile features - done
+[0.283s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.417s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.479s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.519s] -- Found ros_gz_sim: 1.0.16 (/opt/ros/jazzy/share/ros_gz_sim/cmake)
+[0.570s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.585s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.603s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.623s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.706s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.709s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.782s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.802s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.823s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.088s] -- Found ros_gz_bridge: 1.0.16 (/opt/ros/jazzy/share/ros_gz_bridge/cmake)
+[1.109s] -- Looking for gz-msgs10 -- found version 10.3.2
+[1.116s] -- Searching for dependencies of gz-msgs10
+[1.233s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.21.12") 
+[1.235s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.235s] -- Searching for dependencies of gz-utils2
+[1.238s] -- Looking for gz-math7 -- found version 7.5.2
+[1.238s] -- Searching for dependencies of gz-math7
+[1.238s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.243s] -- Checking for module 'tinyxml2'
+[1.258s] --   Found tinyxml2, version 10.0.0
+[1.289s] -- Looking for gz-transport13 -- found version 13.5.0
+[1.289s] -- Searching for dependencies of gz-transport13
+[1.320s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.324s] -- Checking for module 'libzmq >= 4'
+[1.337s] --   Found libzmq, version 4.3.5
+[1.367s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.372s] -- Checking for module 'uuid'
+[1.384s] --   Found uuid, version 2.39.3
+[1.407s] -- Found UUID: TRUE  
+[1.407s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.408s] -- Searching for dependencies of gz-utils2
+[1.408s] -- Searching for <gz-utils2> component [cli]
+[1.411s] -- Looking for gz-utils2-cli -- found version 2.2.1
+[1.411s] -- Searching for dependencies of gz-utils2-cli
+[1.412s] -- Looking for gz-msgs10 -- found version 10.3.2
+[1.593s] -- Found gem_cutter_description: 0.0.0 (/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_description/share/gem_cutter_description/cmake)
+[1.596s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.692s] -- Added test 'lint_cmake' to check CMake code style
+[1.694s] -- Added test 'xmllint' to check XML markup files
+[1.696s] -- Configuring done (1.7s)
+[1.703s] -- Generating done (0.0s)
+[1.707s] -- Build files have been written to: /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/build/gem_cutter_gazebo
+[1.719s] Invoked command in '/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/build/gem_cutter_gazebo' returned '0': AMENT_PREFIX_PATH=/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/src/gem_cutter_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_gazebo
+[1.720s] Invoking command in '/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/build/gem_cutter_gazebo': AMENT_PREFIX_PATH=/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/build/gem_cutter_gazebo -- -j12 -l12
+[1.753s] Invoked command in '/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/build/gem_cutter_gazebo' returned '0': AMENT_PREFIX_PATH=/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/build/gem_cutter_gazebo -- -j12 -l12
+[1.754s] Invoking command in '/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/build/gem_cutter_gazebo': AMENT_PREFIX_PATH=/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/build/gem_cutter_gazebo
+[1.760s] -- Install configuration: ""
+[1.761s] -- Execute custom install script
+[1.761s] -- Symlinking: /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_gazebo/share/ament_index/resource_index/package_run_dependencies/gem_cutter_gazebo
+[1.768s] -- Symlinking: /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_gazebo/share/ament_index/resource_index/parent_prefix_path/gem_cutter_gazebo
+[1.774s] -- Symlinking: /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_gazebo/share/gem_cutter_gazebo/environment/ament_prefix_path.sh
+[1.781s] -- Symlinking: /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_gazebo/share/gem_cutter_gazebo/environment/ament_prefix_path.dsv
+[1.788s] -- Symlinking: /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_gazebo/share/gem_cutter_gazebo/environment/path.sh
+[1.794s] -- Symlinking: /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_gazebo/share/gem_cutter_gazebo/environment/path.dsv
+[1.801s] -- Symlinking: /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_gazebo/share/gem_cutter_gazebo/local_setup.bash
+[1.807s] -- Symlinking: /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_gazebo/share/gem_cutter_gazebo/local_setup.sh
+[1.813s] -- Symlinking: /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_gazebo/share/gem_cutter_gazebo/local_setup.zsh
+[1.820s] -- Symlinking: /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_gazebo/share/gem_cutter_gazebo/local_setup.dsv
+[1.826s] -- Symlinking: /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_gazebo/share/gem_cutter_gazebo/package.dsv
+[1.833s] -- Symlinking: /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_gazebo/share/ament_index/resource_index/packages/gem_cutter_gazebo
+[1.839s] -- Symlinking: /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_gazebo/share/gem_cutter_gazebo/cmake/gem_cutter_gazeboConfig.cmake
+[1.846s] -- Symlinking: /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_gazebo/share/gem_cutter_gazebo/cmake/gem_cutter_gazeboConfig-version.cmake
+[1.854s] -- Symlinking: /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_gazebo/share/gem_cutter_gazebo/package.xml
+[1.862s] Invoked command in '/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/build/gem_cutter_gazebo' returned '0': AMENT_PREFIX_PATH=/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/build/gem_cutter_gazebo

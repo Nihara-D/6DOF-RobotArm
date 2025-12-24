@@ -1,0 +1,57 @@
+[0.008s] Invoking command in '/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/build/gem_cutter_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/src/gem_cutter_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_description
+[0.054s] -- The C compiler identification is GNU 13.3.0
+[0.100s] -- The CXX compiler identification is GNU 13.3.0
+[0.116s] -- Detecting C compiler ABI info
+[0.175s] -- Detecting C compiler ABI info - done
+[0.183s] -- Check for working C compiler: /usr/lib/ccache/cc - skipped
+[0.183s] -- Detecting C compile features
+[0.184s] -- Detecting C compile features - done
+[0.192s] -- Detecting CXX compiler ABI info
+[0.258s] -- Detecting CXX compiler ABI info - done
+[0.267s] -- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+[0.267s] -- Detecting CXX compile features
+[0.267s] -- Detecting CXX compile features - done
+[0.270s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.389s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.449s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.487s] -- Found robot_state_publisher: 3.3.3 (/opt/ros/jazzy/share/robot_state_publisher/cmake)
+[0.529s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.544s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.561s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.579s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.672s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.675s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.747s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.766s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.786s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.073s] -- Found xacro: 2.0.13 (/opt/ros/jazzy/share/xacro/cmake)
+[1.075s] -- Found rviz2: 14.1.17 (/opt/ros/jazzy/share/rviz2/cmake)
+[1.078s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.170s] -- Added test 'lint_cmake' to check CMake code style
+[1.171s] -- Added test 'xmllint' to check XML markup files
+[1.173s] -- Configuring done (1.2s)
+[1.177s] -- Generating done (0.0s)
+[1.179s] -- Build files have been written to: /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/build/gem_cutter_description
+[1.187s] Invoked command in '/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/build/gem_cutter_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/src/gem_cutter_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_description
+[1.188s] Invoking command in '/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/build/gem_cutter_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/build/gem_cutter_description -- -j12 -l12
+[1.222s] Invoked command in '/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/build/gem_cutter_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/build/gem_cutter_description -- -j12 -l12
+[1.230s] Invoking command in '/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/build/gem_cutter_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/build/gem_cutter_description
+[1.236s] -- Install configuration: ""
+[1.236s] -- Execute custom install script
+[1.237s] -- Symlinking: /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_description/share/gem_cutter_description/model.config
+[1.245s] -- Symlinking: /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_description/share/ament_index/resource_index/package_run_dependencies/gem_cutter_description
+[1.252s] -- Symlinking: /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_description/share/ament_index/resource_index/parent_prefix_path/gem_cutter_description
+[1.259s] -- Symlinking: /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_description/share/gem_cutter_description/environment/ament_prefix_path.sh
+[1.266s] -- Symlinking: /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_description/share/gem_cutter_description/environment/ament_prefix_path.dsv
+[1.272s] -- Symlinking: /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_description/share/gem_cutter_description/environment/path.sh
+[1.279s] -- Symlinking: /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_description/share/gem_cutter_description/environment/path.dsv
+[1.285s] -- Symlinking: /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_description/share/gem_cutter_description/local_setup.bash
+[1.291s] -- Symlinking: /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_description/share/gem_cutter_description/local_setup.sh
+[1.298s] -- Symlinking: /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_description/share/gem_cutter_description/local_setup.zsh
+[1.305s] -- Symlinking: /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_description/share/gem_cutter_description/local_setup.dsv
+[1.312s] -- Symlinking: /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_description/share/gem_cutter_description/package.dsv
+[1.319s] -- Symlinking: /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_description/share/ament_index/resource_index/packages/gem_cutter_description
+[1.326s] -- Symlinking: /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_description/share/gem_cutter_description/cmake/gem_cutter_descriptionConfig.cmake
+[1.332s] -- Symlinking: /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_description/share/gem_cutter_description/cmake/gem_cutter_descriptionConfig-version.cmake
+[1.339s] -- Symlinking: /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_description/share/gem_cutter_description/package.xml
+[1.347s] Invoked command in '/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/build/gem_cutter_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/build/gem_cutter_description
