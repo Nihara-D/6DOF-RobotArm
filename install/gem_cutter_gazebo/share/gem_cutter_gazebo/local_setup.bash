@@ -1,0 +1,1 @@
+/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/build/gem_cutter_gazebo/ament_cmake_environment_hooks/local_setup.bash

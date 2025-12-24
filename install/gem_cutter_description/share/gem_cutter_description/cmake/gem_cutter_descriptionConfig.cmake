@@ -1,0 +1,1 @@
+/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/build/gem_cutter_description/ament_cmake_core/gem_cutter_descriptionConfig.cmake
