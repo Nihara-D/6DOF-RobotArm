@@ -1,0 +1,4 @@
+source;share/gem_cutter_gazebo/local_setup.bash
+source;share/gem_cutter_gazebo/local_setup.dsv
+source;share/gem_cutter_gazebo/local_setup.sh
+source;share/gem_cutter_gazebo/local_setup.zsh

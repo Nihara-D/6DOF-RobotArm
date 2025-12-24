@@ -1,0 +1,15 @@
+/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_gazebo/share/ament_index/resource_index/package_run_dependencies/gem_cutter_gazebo
+/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_gazebo/share/ament_index/resource_index/parent_prefix_path/gem_cutter_gazebo
+/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_gazebo/share/gem_cutter_gazebo/environment/ament_prefix_path.sh
+/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_gazebo/share/gem_cutter_gazebo/environment/ament_prefix_path.dsv
+/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_gazebo/share/gem_cutter_gazebo/environment/path.sh
+/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_gazebo/share/gem_cutter_gazebo/environment/path.dsv
+/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_gazebo/share/gem_cutter_gazebo/local_setup.bash
+/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_gazebo/share/gem_cutter_gazebo/local_setup.sh
+/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_gazebo/share/gem_cutter_gazebo/local_setup.zsh
+/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_gazebo/share/gem_cutter_gazebo/local_setup.dsv
+/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_gazebo/share/gem_cutter_gazebo/package.dsv
+/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_gazebo/share/ament_index/resource_index/packages/gem_cutter_gazebo
+/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_gazebo/share/gem_cutter_gazebo/cmake/gem_cutter_gazeboConfig.cmake
+/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_gazebo/share/gem_cutter_gazebo/cmake/gem_cutter_gazeboConfig-version.cmake
+/home/kiran_gunathilaka/development/ros/gem_cutter_manipulator/install/gem_cutter_gazebo/share/gem_cutter_gazebo/package.xml
